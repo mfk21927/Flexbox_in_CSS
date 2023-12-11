@@ -1,4 +1,5 @@
-.flex-container {
+/* flex box */
+/* .flex-container {
     display: flex;
     background-color: DodgerBlue;
   }
@@ -8,4 +9,122 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+  } */
+
+  /* flex container */
+  /* DIRECTIONS  */
+  /* .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: column-reverse;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+  } */
+
+  /* flex wrap */
+  /* .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* flex flow property */
+  /* .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* justify content */
+  /* .flex-container {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */ 
+
+  /* Align items */
+  /* .flex-container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* align_content */
+  /* .flex-container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    overflow: scroll;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+  /* perfect centering */
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    color: white;
+    width: 100px;
+    height: 100px;
   }
